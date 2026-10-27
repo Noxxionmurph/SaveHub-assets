@@ -21,6 +21,11 @@ the game gives them, with the background made transparent and renamed to the edi
 `mystery` to `unknown`). Gen 1 and Gen 2 have no coloured type labels of their own. `scripts/extract-type-labels.py`
 redoes them.
 
+## Shiny mark
+
+`sprites/marks/shiny.svg` is the two-sparkle shiny mark from Pokémon Sword and Shield's summary screen (used by the
+games since), traced by hand as a vector shape in the game's colour.
+
 ## Gym badges
 
 The eight Kanto badges (`sprites/badges/1.png` to `8.png`) are cut from the Red/Blue "Trainer Card" sheet on The Spriters Resource

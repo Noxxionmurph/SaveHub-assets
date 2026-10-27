@@ -16,6 +16,7 @@ sprites/items/<category>/<name>.png  32x32 item icons
 sprites/types/<type>.png           128x128 type icons
 sprites/type-labels/<type>.png     32x16 in-game type labels (Emerald's), plus unknown.png for ???
 sprites/badges/<1-8>.png           16x16 gym badges
+sprites/marks/shiny.svg            the shiny mark (Sword and Shield onwards)
 sprites/pikachu.png                80x720 sheet: 18 reactions, two 40x40 frames each
 ```
 
