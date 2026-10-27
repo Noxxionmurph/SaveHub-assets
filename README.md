@@ -11,7 +11,8 @@ Creatures. If you own any of this artwork and want it removed, open an issue on
 [SaveHub](https://github.com/Noxxionmurph/SaveHub/issues).
 
 ```
-sprites/pokemon/<dex>.png          68x56 box icons, National Dex 1-151
+sprites/pokemon/<dex>.png          68x56 box icons, National Dex 1-251 (Unown's letters as 201-<letter>.png)
+sprites/pokemon/shiny/<dex>.png    the same icons in their shiny colours
 sprites/items/<category>/<name>.png  32x32 item icons
 sprites/types/<type>.png           128x128 type icons
 sprites/type-labels/<type>.png     32x16 in-game type labels (Emerald's), plus unknown.png for ???
