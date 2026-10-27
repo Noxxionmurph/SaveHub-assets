@@ -10,7 +10,7 @@ the same (without the pictures) if they are ever removed. This is who made them.
 ## Pokémon, item and type icons
 
 From **PokéSprite** by msikma (https://github.com/msikma/pokesprite), copied unchanged except for renaming the
-Pokémon files to their National Dex number (and Unown's other letters to `201-<letter>.png`). PokéSprite's own code is MIT licensed; the artwork is not covered by that
+Pokémon files to their National Dex number (and Unown's other letters to `201-<letter>.png`). The shiny icons in `sprites/pokemon/shiny/` are PokéSprite's own shiny versions of the same icons. PokéSprite's own code is MIT licensed; the artwork is not covered by that
 licence.
 
 ## Type labels
