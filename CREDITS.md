@@ -13,6 +13,12 @@ From **PokéSprite** by msikma (https://github.com/msikma/pokesprite), copied un
 Pokémon files to their National Dex number (and Unown's other letters to `201-<letter>.png`). The shiny icons in `sprites/pokemon/shiny/` are PokéSprite's own shiny versions of the same icons. PokéSprite's own code is MIT licensed; the artwork is not covered by that
 licence.
 
+## The ??? type icon
+
+`sprites/types/unknown.png` (the ??? type, Curse's in Gen 2) is drawn for this repository in the style of PokéSprite's
+Gen 8 type icons, which have none for it: a circle in ???'s teal with a white question mark, in the Inter Display font.
+`scripts/make-unknown-type.py` redraws it.
+
 ## Type labels
 
 `sprites/type-labels/<type>.png` (each type's name in its coloured box, 32x16) are Pokémon Emerald's own summary screen
