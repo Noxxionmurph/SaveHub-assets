@@ -79,3 +79,10 @@ Save layouts and tables were worked out with the help of the pret disassemblies
 cartridge dumps the author owns (`scripts/verify-against-rom.mjs`; nothing from the ROMs is stored in this repository).
 
 All the artwork is © Nintendo / Creatures Inc. / GAME FREAK Inc.
+
+## Gen 3 Pokéblocks
+
+The 14 Pokéblock colours (`sprites/pokeblocks/1.png` to `14.png`, numbered like the colour a save stores: 1 Red ...
+14 Gold) are the 8x8 Pokéblock from the pret/pokeemerald disassembly (`graphics/pokeblock/pokeblock.png`), in each of
+the palettes the game uses for it (`red.pal` to `gold.pal`), with the background made transparent. SaveHub's
+`scripts/extract-pokeblocks.py` redoes them.
