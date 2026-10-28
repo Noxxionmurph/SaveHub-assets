@@ -55,6 +55,14 @@ Emerald's seven Battle Frontier symbols (`sprites/frontier/silver-1.png` to `sil
 (`graphics/frontier_pass/medals.png`), in the silver and gold palettes the game loads for them (`silver.pal`,
 `gold.pal`), with the background made transparent. SaveHub's `scripts/extract-frontier-symbols.py` redoes them.
 
+## Gen 3 ribbons
+
+The 32 Gen 3 ribbons (`sprites/ribbons/gen3/0.png` to `31.png`, numbered like the games' ribbon ids: 0 Champion,
+1-20 the Cool, Beauty, Cute, Smart and Tough contest ribbons from Normal to Master Rank, 21-24 Winning, Victory, Artist
+and Effort, 25-31 Marine to World) are the PokéNav's own 32x32 ribbon pictures, from the pret/pokeemerald disassembly
+(`graphics/pokenav/ribbons/icons_big.png`), each in the palette the game gives it (`icons1.pal` to `icons5.pal`), with
+the background made transparent. SaveHub's `scripts/extract-gen3-ribbons.py` redoes them.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
