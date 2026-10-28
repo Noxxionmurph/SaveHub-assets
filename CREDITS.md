@@ -48,6 +48,13 @@ trainer card badges, from the pret/pokeemerald disassembly (https://github.com/p
 `graphics/trainer_card/badges.png`), in the sheet's own colours (the games show them in silver), with the background
 made transparent. SaveHub's `scripts/extract-hoenn-badges.py` redoes them.
 
+## Battle Frontier symbols
+
+Emerald's seven Battle Frontier symbols (`sprites/frontier/silver-1.png` to `silver-7.png` and `gold-1.png` to
+`gold-7.png`, Tower to Pyramid) are the Frontier Pass's own symbols, from the pret/pokeemerald disassembly
+(`graphics/frontier_pass/medals.png`), in the silver and gold palettes the game loads for them (`silver.pal`,
+`gold.pal`), with the background made transparent. SaveHub's `scripts/extract-frontier-symbols.py` redoes them.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
