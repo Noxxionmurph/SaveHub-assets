@@ -10,7 +10,8 @@ the same (without the pictures) if they are ever removed. This is who made them.
 ## Pokémon, item and type icons
 
 From **PokéSprite** by msikma (https://github.com/msikma/pokesprite), copied unchanged except for renaming the
-Pokémon files to their National Dex number (and Unown's other letters to `201-<letter>.png`). The shiny icons in `sprites/pokemon/shiny/` are PokéSprite's own shiny versions of the same icons. PokéSprite's own code is MIT licensed; the artwork is not covered by that
+Pokémon files to their National Dex number (and Unown's other letters to `201-<letter>.png`, with `!` and `?` as
+`201-exclamation.png` and `201-question.png`). The shiny icons in `sprites/pokemon/shiny/` are PokéSprite's own shiny versions of the same icons. PokéSprite's own code is MIT licensed; the artwork is not covered by that
 licence.
 
 ## The ??? type icon
@@ -41,6 +42,11 @@ Game Boy colour panel. `scripts/extract-badges.py` redoes the cut.
 The eight Johto badges (`sprites/badges/johto/1.png` to `8.png`, Zephyr to Rising) are Gold and Silver's own trainer card
 badges, from the pret/pokegold disassembly (https://github.com/pret/pokegold, `gfx/trainer_card/badges.png`), in the
 colours the game gives them on a Game Boy Color (its badge palette). `scripts/extract-johto-badges.py` redoes them.
+
+The eight Hoenn badges (`sprites/badges/hoenn/1.png` to `8.png`, Stone to Rain) are Ruby, Sapphire and Emerald's own
+trainer card badges, from the pret/pokeemerald disassembly (https://github.com/pret/pokeemerald,
+`graphics/trainer_card/badges.png`), in the sheet's own colours (the games show them in silver), with the background
+made transparent. SaveHub's `scripts/extract-hoenn-badges.py` redoes them.
 
 ## Pikachu's reactions
 
