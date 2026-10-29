@@ -86,3 +86,14 @@ The 14 Pokéblock colours (`sprites/pokeblocks/1.png` to `14.png`, numbered like
 14 Gold) are the 8x8 Pokéblock from the pret/pokeemerald disassembly (`graphics/pokeblock/pokeblock.png`), in each of
 the palettes the game uses for it (`red.pal` to `gold.pal`), with the background made transparent. SaveHub's
 `scripts/extract-pokeblocks.py` redoes them.
+
+## Window frames
+
+The frames the games' OPTION menu offers under FRAME (`sprites/frames/`, numbered like the menu's TYPE 1, TYPE 2 ...)
+are each laid out as 3x3 tiles of 8x8 (corners, edges and a middle the games never draw). Gold, Silver and Crystal
+share eight: the six 1bpp tiles of the pret/pokecrystal disassembly's `gfx/frames/1.png` to `8.png` (identical in
+pret/pokegold), with the top and bottom edge both the game's ─ tile and both sides its │ tile, as the game draws them,
+in black on transparent so the editor can draw them in the window's own colours. Ruby and Sapphire's twenty are
+pret/pokeruby's `graphics/text_window/1.png` to `20.png`, and Emerald's (nine of them redrawn) pret/pokeemerald's, in
+the colours the GBA shows, with colour 0 (which the game leaves see-through) made transparent. SaveHub's
+`scripts/extract-frames.py` redoes them.
