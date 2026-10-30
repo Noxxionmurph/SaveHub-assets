@@ -97,3 +97,13 @@ in black on transparent so the editor can draw them in the window's own colours.
 pret/pokeruby's `graphics/text_window/1.png` to `20.png`, and Emerald's (nine of them redrawn) pret/pokeemerald's, in
 the colours the GBA shows, with colour 0 (which the game leaves see-through) made transparent. SaveHub's
 `scripts/extract-frames.py` redoes them.
+
+## Secret bases
+
+The secret base pictures (`sprites/secret-bases/`) come from the pret/pokeemerald disassembly. `red_cave.png`,
+`brown_cave.png`, `blue_cave.png`, `yellow_cave.png`, `tree.png` and `shrub.png` are every metatile of the secret base
+tileset (`data/tilesets/secondary/secret_base/metatiles.bin`, which the rooms and the decorations share), drawn from the
+primary secret base tiles and that kind's own tiles and palettes, 16 to a row. `dolls/<decoration id>.png` are the
+dolls and cushions, which the game shows as sprites: the first frame of each one's picture in
+`graphics/object_events/pics/` in its object palette, with colour 0 made transparent. SaveHub's
+`scripts/extract-secret-bases.py` redoes them.
